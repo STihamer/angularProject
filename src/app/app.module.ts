@@ -8,6 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { MessageComponent } from './message/message.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { BlueTextDirective } from './blue-text.directive';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { FormsModule } from '@angular/forms';
     NavComponent,
     MessageComponent,
     SearchComponent,
+    BlueTextDirective,
+    ProductsComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
